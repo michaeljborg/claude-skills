@@ -1,6 +1,6 @@
 # claude-skills
 
-A collection of [Claude Code](https://claude.com/claude-code) skills. Each skill lives in its own folder with a `SKILL.md` (the instructions Claude follows) and a `README.md` (how to install and use it).
+A collection of Claude Code skills. Each skill lives in its own folder with a `SKILL.md` (the instructions Claude follows) and a `README.md` (how to install and use it).
 
 ## Skills
 
