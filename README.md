@@ -17,13 +17,4 @@ Copy a skill's `SKILL.md` into your Claude Code skills directory, keeping the fo
 mkdir -p ~/.claude/skills/repo-intro
 cp repo-intro/SKILL.md ~/.claude/skills/repo-intro/SKILL.md
 ```
-
-To install every skill at once:
-
-```sh
-for d in */; do
-  [ -f "$d/SKILL.md" ] && mkdir -p ~/.claude/skills/"$d" && cp "$d/SKILL.md" ~/.claude/skills/"$d"
-done
-```
-
 Then run it in Claude Code with `/<skill-name>`, e.g. `/repo-intro`. See each skill's README for arguments and requirements.
