@@ -1,6 +1,6 @@
 # claude-skills
 
-A collection of Claude Code skills. Each skill lives in its own folder with a `SKILL.md` (the instructions Claude follows) and a `README.md` (how to install and use it).
+A collection of Claude Code skills. Each skill lives in its own folder with a `SKILL.md` and a `README.md`.
 
 ## Skills
 
@@ -27,10 +27,3 @@ done
 ```
 
 Then run it in Claude Code with `/<skill-name>`, e.g. `/repo-intro`. See each skill's README for arguments and requirements.
-
-## Adding a skill
-
-1. Create a folder named after the skill.
-2. Add a `SKILL.md` with `name` and `description` frontmatter, followed by the instructions.
-3. Add a `README.md` covering what it does, install, and use.
-4. Add a row to the table above.
