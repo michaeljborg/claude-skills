@@ -29,6 +29,4 @@ Shot Chucker FC    .445    .813    366    2854    1107    509    185    188    3
 Put your team first. Paste the whole league grid, not just the two teams, because league ranks feed into the strengths and weaknesses. The week number is optional but helps.
 
 Notes:
-- TO is treated as the reverse category (fewer wins).
-- The grid shows season totals, so a team that has played fewer games will look weaker in counting stats than it really is. The report flags this when it spots it.
 - Waiver suggestions are player archetypes, not named players, because the skill doesn't have access to your league's waiver wire.
