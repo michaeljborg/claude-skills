@@ -40,13 +40,13 @@ For each of the 9 categories, compute:
 | Verdict | Counting stats (% gap) | FG% (abs gap) | FT% (abs gap) |
 | --- | --- | --- | --- |
 | **Lock** | ≥ 15% | ≥ .015 | ≥ .030 |
-| **Lean** | 6–15% | .006–.015 | .012–.030 |
+| **Likely** | 6–15% | .006–.015 | .012–.030 |
 | **Toss-up** | < 6% | < .006 | < .012 |
 
 Compute the % gap as `|a − b| / avg(a, b)`.
 
 Then adjust with judgment, and say why whenever you do:
-- Low volume is volatile. ST and BLK swing more week to week than PTS or REB, so downgrade a borderline Lock to Lean in those categories.
+- Low volume is volatile. ST and BLK swing more week to week than PTS or REB, so downgrade a borderline Lock to Likely in those categories.
 - FT% is volatile for teams with few attempts. FG% is more stable.
 - If one team looks short on games played (see Rules), counting-stat edges in its favor are stronger than they look, and edges against it are weaker.
 
@@ -63,8 +63,8 @@ For **each** team:
 
 ### 4. Waiver targets
 Recommend which categories the user should chase on waivers this week. Prioritize in this order:
-1. **Toss-ups and slight Leans against the user.** A small boost flips these.
-2. **Slight Leans in the user's favor** that the opponent could steal.
+1. **Toss-ups and categories rated Likely for the opponent.** A small boost flips these.
+2. **Categories rated Likely for the user** that the opponent could steal.
 3. **Never chase a category the user is badly losing.** Say plainly that it's a punt for the week and that chasing it wastes moves.
 
 For each target category, give:
@@ -89,7 +89,7 @@ The path is relative to the current directory. Create the folder if it doesn't e
 Page layout, top to bottom:
 
 1. **Header:** `Team 1 vs Team 2`, the date, and the projected score as a large headline (e.g. `Projected 5–3–1`), with the best and worst case underneath.
-2. **Category scoreboard:** one row per category, in the order FG%, FT%, 3PTM, PTS, REB, AST, ST, BLK, TO. Columns: Category, Team 1 value (league rank), Team 2 value (league rank), Edge, Verdict. Shade each row by verdict and side: green for a Team 1 Lock or Lean (darker for Lock), red for a Team 2 Lock or Lean, amber for a Toss-up. Mark TO with "(lower wins)".
+2. **Category scoreboard:** one row per category, in the order FG%, FT%, 3PTM, PTS, REB, AST, ST, BLK, TO. Columns: Category, Team 1 value (league rank), Team 2 value (league rank), Edge, Verdict. Shade each row by verdict and side: green for a Team 1 Lock or Likely (darker for Lock), red for a Team 2 Lock or Likely, amber for a Toss-up. Mark TO with "(lower wins)".
 3. **Team profiles:** two cards side by side (stacked on narrow screens), each with Strengths, Weaknesses, and Build read.
 4. **Locks and toss-ups:** Team 1 locks, Team 2 locks, and the toss-up list with a one-line note on what tips each.
 5. **Waiver targets:** a ranked list, each with Category, Why, Player archetype, and Watch out for. Then the punt note and the streaming note.

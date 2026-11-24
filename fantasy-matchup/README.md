@@ -2,7 +2,7 @@
 
 A Claude Code skill for weekly Yahoo fantasy basketball matchups in **standard 9-cat head-to-head** leagues (FG%, FT%, 3PTM, PTS, REB, AST, ST, BLK, TO). Paste your matchup and the league stats grid, and Claude writes an HTML report and opens it in your browser. The report covers:
 
-1. **Projected score:** a best case, a worst case, and a scoreboard of all 9 categories rated Lock, Lean, or Toss-up
+1. **Projected score:** a best case, a worst case, and a scoreboard of all 9 categories rated Lock, Likely, or Toss-up
 2. **Team profiles:** each team's strengths, weaknesses, and build
 3. **Locks vs. toss-ups:** which categories should be safe for each side, and which ones will decide the week
 4. **Waiver targets:** which categories to chase, which player archetypes to look for, the side effects to watch, and which categories to punt
